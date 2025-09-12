@@ -39,8 +39,8 @@
 			{{ csrf_field() }}
 		</form><br>
 		</div>
-		<div id="logo" class="container" style="background-color: black"><center>
-			<img src="{{asset('img/logo.jpg')}}" alt="mysql" width="500" height="120"><br>
+		<div id="logo" class="container" style="background-color: #205d8f"><center>
+			<img src="{{asset('img/loggo.png')}}" alt="mysql" width="500" height="120"><br>
 			</center>
 		</div><br>
 		@yield('nav')
