@@ -131,6 +131,6 @@
 </div><br>
 
 <div class="container" style="width: 55%">
-<a type="button" class="btn btn-info" onclick="printDiv();" href="{{ route('ventas.showticket', $venta) }}">IMPRIMIR FACTURA</a>
+<a target="_blank" type="button" class="btn btn-info" onclick="printDiv();" href="{{ route('ventas.showticket', $venta) }}">IMPRIMIR FACTURA</a>
 </div><br><br>
 @endsection

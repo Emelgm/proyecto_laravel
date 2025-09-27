@@ -12,7 +12,7 @@
             <a class="nav-link" href="{{ route('ventas.index') }}">Ventas</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ route('colores.index') }}">Insumos</a>
+            <a class="nav-link" href="{{ route('categorias.index') }}">Insumos</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ route('productos.index') }}">Productos</a>
@@ -84,6 +84,18 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
+                        <!-- MOSTRAR ROLES
+                        <div class="row">
+				            <div class="col col-md-2">
+					            <label class="h5">Rol</label>
+                                <div class="col">
+                                    <select class="form-control" name="role_id">
+                                        
+                                            <option class="text-left" value=""></option>
+                                        
+                                    </select><br>
+                                </div>
+				        </div>-->
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">

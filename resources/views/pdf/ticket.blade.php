@@ -53,9 +53,9 @@
 <div class="ticket" id="factura">
 	<div class="">
 			<div class="" align="right">	
-					YAZAY Calzado <br>
-					Av 12 #18-40 B La Libertad <br>
-					Cúcuta - Colombia
+					Papelería Ximena <br>
+					Calle 12 #18-70 La Libertad <br>
+					Cúcuta - N.S.
 			</div>
 	</div><hr>
 	<div class="">
@@ -104,7 +104,7 @@
 				@endphp
 				@foreach($venta->venta_producto as $vent)
 				<tr align="center">
-					<td>{{ $vent->productos->modelo->nombre }} {{ $vent->productos->color->nombre }} {{ $vent->productos->talla->nombre }}</td>
+					<td>{{ $vent->productos->nombre }}</td>
 					<td>{{ $vent->cantidad }}</td>
 					@php
 						$desc=$vent->descuento;

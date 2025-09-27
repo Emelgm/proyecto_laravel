@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>@yield('titulo')</title>
-		<link rel="shortcut icon" type="image/png" href="{{asset('img/ico.PNG')}}">
+		<link rel="shortcut icon" type="image/png" href="{{asset('img/ico.png')}}">
 		<link rel="stylesheet" href="{{asset('css/app.css')}}">
 		<link rel="stylesheet" href="{{asset('css/estilo.css')}}">
 		<link rel="stylesheet" href="{{asset('plugins/chosen/chosen.min.css')}}">

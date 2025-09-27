@@ -223,7 +223,7 @@ computed:{
     return total;
   },
   productoVentaDescripcion(){
-    return `Modelo: ${this.productoVenta.modelo.nombre}<br> Color: ${this.productoVenta.color.nombre}<br> Talla: ${this.productoVenta.talla.nombre}`;
+    return `Nombre: ${this.productoVenta.nombre}<br> Categoría: ${this.productoVenta.color.nombre}<br> Marca: ${this.productoVenta.talla.nombre}`;
   },
   clienteDescripcion(){
     return `Cédula: ${this.bcliente.id}<br> Nombre: ${this.bcliente.nombres}<br> Apellido: ${this.bcliente.apellidos}`;
