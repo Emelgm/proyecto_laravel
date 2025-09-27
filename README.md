@@ -16,7 +16,7 @@ Pasos e instalaciones:
 - version php 7.4.
 - version nodejs 14.
 - instalar npm.
-- ejecutar npm dev run.
+- ejecutar npm dev run. (verificar la carpeta node_modules)
 - php artisan key:generate.
 - php artisan cache:clear.
 - php artisan migrate (migrate:fresh).
