@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\User;
+use Caffeinated\Shinobi\Models\Role;
 
 class UsuarioController extends Controller
 {
